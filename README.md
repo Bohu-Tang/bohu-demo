@@ -1,57 +1,33 @@
-# Ant Design Pro
+## 运行方式
 
-This project is initialized with [Ant Design Pro](https://pro.ant.design). Follow is the quick guide for how to use.
++ 进入项目目录
 
-## Environment Prepare
++ 在终端中执行
 
-Install `node_modules`:
+  - 1、`npm install`
 
-```bash
-npm install
-```
+  - 2、`npm start`
 
-or
+    
 
-```bash
-yarn
-```
+####项目采用**AntDesign-Pro** 开发。
 
-## Provided Scripts
 
-Ant Design Pro provides some useful script to help you quick start and build with web project, code style check and test.
 
-Scripts provided in `package.json`. It's safe to modify or add additional script:
+####页面路径：
 
-### Start project
++ 首页 `pages/Start.jsx` ，对应样式 `pages/start.less` ;
++  内容页 `pages/Submit.jsx` ，对应样式 `pages/submit.less` ;
++ 结果页 `pages/Result.jsx` ， 对应样式 `pages/result.less` ;
 
-```bash
-npm start
-```
+#### 路由配置文件：
 
-### Build project
+`config/config.js`
 
-```bash
-npm run build
-```
++ 首页 `/`
++ 内容页 `/submit`
++ 结果页 `/result`
 
-### Check code style
 
-```bash
-npm run lint
-```
 
-You can also use script to auto fix some lint error:
-
-```bash
-npm run lint:fix
-```
-
-### Test code
-
-```bash
-npm test
-```
-
-## More
-
-You can view full document on our [official website](https://pro.ant.design). And welcome any feedback in our [github](https://github.com/ant-design/ant-design-pro).
+#####git项目地址：https://github.com/Bohu-Tang/bohu-demo.git
